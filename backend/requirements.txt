@@ -6,3 +6,4 @@ gensim
 nltk
 numpy
 pandas
+gensim==4.3.2
