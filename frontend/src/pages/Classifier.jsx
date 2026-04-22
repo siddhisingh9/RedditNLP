@@ -76,7 +76,7 @@ export default function Classifier() {
         <textarea
           value={text}
           onChange={e => { setText(e.target.value); setResult(null) }}
-          placeholder="Type something... e.g. 'I haven't been sleeping well and feel disconnected from everyone'"
+          placeholder="Type something... e.g. 'I recently got a new kitten and I think she's very cute!'"
           rows={5}
           style={{
             width: '100%', background: 'var(--surface)', border: '1px solid var(--border)',
