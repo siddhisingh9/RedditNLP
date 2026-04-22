@@ -11,8 +11,7 @@ const PLOT_META = {
   'comment_length.png':       { title: 'Comment Length Distribution',  desc: 'Distribution of comment lengths by subreddit' },
   'score_distribution.png':   { title: 'Score Distribution',           desc: 'Post upvote score distribution per subreddit' },
   'score_vs_length.png':      { title: 'Score vs Text Length',         desc: 'Does longer text mean more upvotes?' },
-  'post_time_patterns.png':   { title: 'Post Time Patterns',           desc: 'When does each subreddit post throughout the day (UTC)' },
-  'activity_heatmap.png':     { title: 'Activity Heatmap',             desc: 'Hourly activity heatmap per subreddit' },
+  'comment_time_patterns.png':{ title: 'Comment times',                desc: 'Hourly comment activity per subreddit' },
   'night_owl.png':            { title: 'Night Owl Index',              desc: '% of posts published between 11pm–5am UTC' },
   'topic_distribution.png':   { title: 'Topic Distribution',           desc: 'BERTopic topics discovered per subreddit' },
   'vocab_richness.png':       { title: 'Vocabulary Richness',          desc: 'Unique word count and lexical diversity per subreddit' },
@@ -22,7 +21,7 @@ const PLOT_META = {
 const CATEGORIES = {
   'Text & Vocabulary': ['wordclouds.png', 'top_words.png', 'unique_words.png', 'vocab_richness.png'],
   'Engagement':        ['score_distribution.png', 'score_vs_length.png', 'comment_stats.png'],
-  'Temporal':          ['post_time_patterns.png', 'activity_heatmap.png', 'night_owl.png'],
+  'Temporal':          ['comment_time_patterns.png', 'night_owl.png'],
   'NLP / ML':          ['topic_distribution.png', 'similarity_heatmap.png'],
   'Length':            ['post_text_length.png', 'comment_length.png'],
 }
